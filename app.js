@@ -49,8 +49,8 @@ $(document).ready(function () {
     }
 
     function checkAnswer(currentLevel) {
-        if(gamePattern[currentLevel] === userClickedPattern[currentLevel]) {
-            if(gamePattern.length === userClickedPattern.length) {
+        if (gamePattern[currentLevel] === userClickedPattern[currentLevel]) {
+            if (gamePattern.length === userClickedPattern.length) {
                 setTimeout(function () {
                     nextSequence();
                 }, 1000);
